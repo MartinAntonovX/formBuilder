@@ -1446,7 +1446,6 @@ const methods = {
 }
 
 jQuery.fn.formBuilder = function(methodOrOptions = {}, ...args) {
-  console.log("test");
   const isMethod = typeof methodOrOptions === 'string'
   if (isMethod) {
     if (methods[methodOrOptions]) {
