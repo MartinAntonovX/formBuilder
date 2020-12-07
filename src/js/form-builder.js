@@ -39,6 +39,8 @@ const FormBuilder = function(opts, element, $) {
   const data = new Data(formID)
   const d = new Dom(formID)
 
+  console.log("test");
+
   // prepare a new layout object with appropriate templates
   if (!opts.layout) {
     opts.layout = layout
